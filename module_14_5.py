@@ -216,7 +216,7 @@ async def set_age(message, state):
     email = user_data['email']
     add_user(username, email, age)
 
-    await message.answer("Регистрация завершена! Вы можете начать использовать бота.")
+    await message.answer("Регистрация завершена!")
     await state.finish()
 
 
